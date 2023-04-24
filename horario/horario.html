@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../style.css">
     <style>
         table, th, td{
-            border: 1px solid black;
+            border: 2px solid black;
             border-collapse: collapse;
             text-align: center;
             
@@ -26,82 +26,144 @@
            
         width: 70%;
         margin: 10 auto;
-        margin-top: 300px;
+        margin-top: 0;
         }
 
         table {
         text-align: center;
         margin: 0 auto;
         }
-
-       
+        header{
+            background-color: rgba(37, 37, 119, 0.753);
+            text-align: center;
+        }
+        *{
+            padding:0;
+            margin: 0;
+        }
+        .oi{
+            background-color: gray;
+            padding: 5px;
+        }
+        .voltar{
+            text-align: left;
+            color: rgb(15, 20, 26);
+        }
+        h2{
+            color: maroon;
+            font-size: 16px;
+        }
+        
 
     </style>
 </head>
 <body>
+    <header>
+         <a href="../index.html" class="voltar"><h3>voltar</h3></a>
+        <h1>Horarios</h1>
+        <a href="#seg"><h2>segunda</h2></a>
+        <h2>Terça</h2>
+        <h2>Quarta</h2>
+        <h2>Quinta</h2>
+        <h2>Sexta</h2>
+    </header>
+
+
+
     <div class="conteiner">
     <table>
         <tr>
-            <th>segunda</th>
+            <th id="seg">segunda</th>
             <th>terça</th>
             <th>Quarta</th>
             <th>Quinta</th>
-            <th>Sexta</th>
+            
         </tr>
         <tr>
             <!-- 1°horario -->
+           <td>Química 7:00</td>
+           <td>Projeto de Vida 7:00</td>
+           <td>Inglês 7:00</td>
+           <td>Geografia 7:00</td>
            
             
         
         </tr>
         <tr>
             <!-- 2°horario -->
-            <td>Educação Financeira</td>
-            <td>Matematica</td>
-            <td>Inglês</td>
-            <td>Biotecnologia</td>
-            <td>Educação Financeira</td>
+            <td>Educação Financeira 7:50</td>
+            <td>Matematica 7:50</td>
+            <td>Inglês 7:50</td>
+            <td>Biotecnologia 7:50</td>
+            
 
         </tr>
+      
         <tr>
         
             <!-- 3°horario -->
-            <td>Biologia</td>
-            <td>Sociologia</td>
-            <td>Matemática</td>
-            <td>Historia</td>
-            <td>Sociologia</td>
+            <td>Biologia 8:40</td>
+            <td>Sociologia 8:40</td>
+            <td>Matemática 8:40</td>
+            <td>Historia 8:40</td>
+            
 
 
         </tr>
         <tr>
+            <th colspan="4" class="oi">intervalo: 00:20</th>
+        </tr>
+        <tr>
             <!-- 4°horario -->
-            <td>Biotecnologia</td>
-            <td>Geografia</td>
-            <td>Programação</td>
-            <td>Programação</td>
-            <td>Empreendedorismo</td>
+            <td>Biotecnologia 9:50</td>
+            <td>Geografia 9:50</td>
+            <td>Programação 9:50</td>
+            <td>Programação 9:50</td>
+           
 
 
         </tr>
         <tr>
             <!-- 5°horario -->
-            <td>Robotica</td>
-            <td>Empreendorismo</td>
-            <td>Português</td>
-            <td>Programação</td>
-            <td>Robotica</td>
+            <td>Robotica 10:40</td>
+            <td>Empreendorismo 10:40</td>
+            <td>Português 10:40</td>
+            <td>Programação 10:40</td>
+           
         </tr>
         <tr>
             <!-- 6°horario -->
-            <td>Matemática</td>
-            <td>Biologia</td>
-            <td>Historia</td>
-            <td>Português</td>
-            <td>Química</td>
+            <td>Matemática 11:30</td>
+            <td>Biologia <br> 11:30</td>
+            <td>Historia 11:30</td>
+            <td>Português 11:30</td>
+           
 
         </tr>
     </table>
    </div>
+    <table>
+        <tr>
+        <th>Sexta</th>
+        </tr>
+        <tr>
+        <td>Português 7:00</td>
+        </tr>
+        <tr>
+        <td>Educação Financeira 7:50</td>
+        </tr>
+        <tr>
+        <td>Sociologia 8:40</td>
+        </tr>
+        <tr>
+        <td>Empreendedorismo 9:50</td>
+        </tr>
+        <tr>
+        <td>Robotica 10:40</td>
+        </tr>
+        <tr>
+        <td>Química 11:30</td>
+    </tr>
+    </table>
 </body>
 </html>
